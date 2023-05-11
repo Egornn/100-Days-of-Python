@@ -1,4 +1,3 @@
-import math as math
 print("Welcome to the tip calculator!")
 bill_total = float(input('What was the total sum of the bill? '))
 number_people = int(input('Howmany people should split the bill? '))
