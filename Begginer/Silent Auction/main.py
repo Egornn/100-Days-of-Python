@@ -29,7 +29,7 @@ def solve(dictionary):
 is_all_entered=False
 while not is_all_entered:
     print(gavel+"\n")
-    print('Welcome, to the Silent Auction!')    
+    print('Welcome, to the Blind Auction!')    
     participant = {}
     participant_number=1
     name = input("What is your name? ")
