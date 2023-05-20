@@ -1,3 +1,4 @@
+from art import logo
 def ceasar(mode, message, shift):
     alphabet=list('abcdefghigklmnopqrstuvwxyz')
     if mode=='decode': shift*=-1
@@ -10,6 +11,7 @@ def ceasar(mode, message, shift):
     return "".join(message_as_list)
 
 def main_loop():
+    print(logo)
     print('Welcome to the Ceasar Cipher Encoder/Decoder!')
     is_continue=True
     while is_continue:
