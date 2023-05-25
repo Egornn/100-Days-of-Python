@@ -14,8 +14,8 @@ class QuestionBank:
         return str(string_rep)
 
     def add_data(self, questions_as_list_of_dictionary):
-        for quest in questions_as_list_of_dictionary:
-            self.bank.append(Question(quest["text"], quest['answer']))
+        for quest in questions_as_list_of_dictionary['results']:
+            self.bank.append(Question(quest["question"], quest['correct_answer']))
 
     def pop_question(self):
         if len(self.bank) == 0:
