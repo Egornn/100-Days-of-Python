@@ -70,28 +70,28 @@ screen.colormode(255)
 timmy.color('red')
 initial_setup()
 
-# Draw a square
+# draw a square
 timmy.goto(100,0)
 timmy.right(90)
 draw_ngon(4, 125)
 
-# Draw a doted line
+# draw a doted line
 timmy.right(90)
 draw_line(10, 15)
 
-# Draw up to deca
+# draw up to deca
 draw_set_of_ngons(timmy, 10, 125)
 
-# Draw random walk
+# draw random walk
 screen.clear()
 timmy.goto(0,0)
 initial_setup()
 random_walk(timmy, 100)
 
-# Draw spirograph
+# draw spirograph
 timmy.pensize(1)
 draw_spirograph(timmy, 50, 100)
 
-# Paint a picture
+# paint a picture
 paint(timmy, screen)
 screen.exitonclick()
