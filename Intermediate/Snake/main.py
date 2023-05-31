@@ -1,45 +1,24 @@
 from turtle import Screen, Turtle
 from random import randint
+from time import sleep
+from snake import Snake, GRID_SQUARE, GRID_SIZE
 
-
-def add_turtle(x: int, y:int, snake_list= []):
-    new_turtle = Turtle(shape='square', visible=False)
-    new_turtle.penup()
-    new_turtle.color('white')
-    new_turtle.setposition(x * GRID_SQARE, y*GRID_SQARE)
-    new_turtle.showturtle()
-    snake_list.append(new_turtle)
-    return snake_list
-
-
-def initial_setup():
-    initial_coordinates = [(-2, 0), (-1, 0), (0, 0)]
-    for coordinates in initial_coordinates:
-        snake = add_turtle(coordinates[0], coordinates[1])
-    head = snake.pop(-1)
-    is_continue = True
-    while is_continue:
-        screen.delay(100)
-        snake.append(head)
-        new_x = head.xcor() + GRID_SQARE
-        new_y = head.ycor()
-        head = snake[0]
-        snake.pop(0)
-        head.goto(new_x, new_y)
-        if (abs(head.xcor()) >= GRID_SIZE * GRID_SQARE / 2) or (abs(head.ycor()) >= GRID_SIZE * GRID_SQARE / 2):
-            is_continue = False
-        for block in snake:
-            print(block.pos())
-        print(head.pos())
-    return
-
-
-GRID_SQARE = 20
-GRID_SIZE = 30
 
 screen = Screen()
-screen.setup(width=GRID_SIZE * GRID_SQARE, height=GRID_SIZE * GRID_SQARE)
+screen.setup(width=GRID_SIZE * GRID_SQUARE, height=GRID_SIZE * GRID_SQUARE)
 screen.bgcolor('black')
 screen.title("Snake")
-initial_setup()
+screen.tracer(0)
+snake_1 = Snake()
+screen.listen()
+screen.onkey(snake_1.move_up, 'Up')
+screen.onkey(snake_1.move_down, 'Down')
+screen.onkey(snake_1.move_left, 'Left')
+screen.onkey(snake_1.move_right, 'Right')
+while snake_1.is_continue:
+    snake_1.move()
+    screen.update()
+    sleep(.3)
 screen.exitonclick()
+for s in snake_1.segments:
+    print(s.pos())
