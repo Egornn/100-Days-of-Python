@@ -39,7 +39,7 @@ final_score = Turtle(visible=False)
 final_score.color('black')
 final_score.write(f"You have managed to guess {guessed} out of 50 states!", align='center',
                   font=("Courier", 15, "normal"))
-missed_states = list(set(correct_answers) - set(already_guessed))
+missed_states = [state for state in correct_answers if state not in already_guessed]
 pandas.DataFrame(missed_states).to_csv("missed_states.csv")
 turtle.onscreenclick(coordinates_on_click)
 turtle.mainloop()
