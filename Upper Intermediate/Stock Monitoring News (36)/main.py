@@ -1,11 +1,13 @@
 import requests
 from datetime import date, timedelta
+from twilio.rest import Client
 
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
+
 API_STOCK_KEY = "UMSW58VVAMXI6R7H"
 API_NEWS_KEY = "39a1d03b2b1947a4b9ad396024bebea2"
 MIN_CHANGE_STOCK = 0.05
@@ -14,9 +16,10 @@ MIN_CHANGE_STOCK = 0.05
 def news_report(stock=STOCK):
     change_in_stock = fetch_stock_change(stock)
     if change_in_stock > MIN_CHANGE_STOCK or True:
-        print('Get news')
         news = get_news(COMPANY_NAME)
-        # send_news(news)
+        news_dictionary = {k.get("title"): k.get("url") for k in news[:3]}
+
+        send_news(news_dictionary, change_in_stock)
 
 
 ## STEP 1: Use https://newsapi.org/docs/endpoints/everything
@@ -25,7 +28,7 @@ def news_report(stock=STOCK):
 # HINT 2: Work out the value of 5% of yesterday's closing stock price.
 
 
-def fetch_stock_change(stock, percentile_change=0.05):
+def fetch_stock_change(stock):
     dictionary = {
         "function": "TIME_SERIES_INTRADAY",
         "symbol": stock,
@@ -38,7 +41,6 @@ def fetch_stock_change(stock, percentile_change=0.05):
     time_series = response.json()["Time Series (60min)"]
     is_data_available = False
     while is_data_available == False:
-        print(f"{yesterday} 19:00:00")
         if time_series.get(f"{yesterday} 19:00:00") == None:
             yesterday = yesterday - timedelta(days=1)
         else:
@@ -48,7 +50,6 @@ def fetch_stock_change(stock, percentile_change=0.05):
     is_data_available = False
     before_yesterday = yesterday - timedelta(days=1)
     while is_data_available == False:
-        print(f"{before_yesterday} 19:00:00")
         if time_series.get(f"{before_yesterday} 19:00:00") == None:
             before_yesterday = before_yesterday - timedelta(days=1)
         else:
@@ -67,13 +68,28 @@ def get_news(company_name):
         "apiKey": API_NEWS_KEY,
     }
     response = requests.get(NEWS_ENDPOINT, params=params)
-    print(response.json().get('articles'))
-    return
+    return response.json().get('articles')
 
 
 ## STEP 3: Use twilio.com/docs/sms/quickstart/python
 # Send a separate message with each article's title and description to your phone number. 
 # HINT 1: Consider using a List Comprehension.
+def send_news(news: {str: str}, change: float, stock=STOCK):
+    account_sid = 'ACd2eb03ed855f2a4c9c279a786bfe234f'
+    auth_token = 'ebd2b0f61a71489bc94a994a48f74d95'
+    client = Client(account_sid, auth_token)
+    if change > 0:
+        change = f"🔺{change * 100}%"
+    else:
+        change = f"🔻{change * -100}%"
+    for title in news.keys():
+        message = client.messages.create(
+            from_='+447361593525',
+            to='+447469637234',
+            body=f'Stock:{stock}\n{change}\ntitle:{title}\nURL:{news.get(title)}'
+        )
+
+    return
 
 
 # Optional: Format the SMS message like this:
