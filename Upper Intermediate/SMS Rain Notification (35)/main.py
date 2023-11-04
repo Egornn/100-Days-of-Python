@@ -1,5 +1,6 @@
 import requests
 from twilio.rest import Client
+import os
 
 API_KEY = "55f5be3c9c05d1932de255c8fed7ca0c"
 MY_LAT = 51.491640
@@ -28,7 +29,7 @@ response.raise_for_status()
 weather_data = response.json()
 
 account_sid = 'ACd2eb03ed855f2a4c9c279a786bfe234f'
-auth_token = '189d08440a1dde93340e5aab1ab879e7'
+auth_token = 'ebd2b0f61a71489bc94a994a48f74d95'
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(

@@ -86,7 +86,7 @@ def send_news(news: {str: str}, change: float, stock=STOCK):
         message = client.messages.create(
             from_='+447361593525',
             to='+447469637234',
-            body=f'Stock:{stock}\n{change}\ntitle:{title}\nURL:{news.get(title)}'
+            body=f'Stock:{stock}\n{change}\nTitle:{title}\nURL:{news.get(title)}'
         )
 
     return
