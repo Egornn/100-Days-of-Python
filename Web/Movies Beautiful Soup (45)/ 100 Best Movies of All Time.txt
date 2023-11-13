@@ -98,3 +98,212 @@
 98) Amelie
 99) Raging Bull
 100) Stand By Me
+
+
+
+
+
+
+
+<div class="o-chart-results-list-row-container">
+<ul class="o-chart-results-list-row // lrv-a-unstyle-list lrv-u-flex u-height-100 lrv-u-background-color-white a-chart-has-chart-detail" data-ajax="" data-detail-target="11">
+<li class="o-chart-results-list__item // lrv-u-background-color-black lrv-u-color-white u-width-100 u-width-55@mobile-max u-width-55@tablet-only lrv-u-height-100p lrv-u-flex lrv-u-flex-direction-column lrv-u-flex-shrink-0 lrv-u-align-items-center lrv-u-justify-content-center lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey">
+<span class="c-label a-font-primary-bold-l u-font-size-32@tablet u-letter-spacing-0080@tablet">
+
+        11
+</span>
+<div class="c-svg u-height-10@mobile-max u-width-10@mobile-max u-hidden@tablet">
+<svg height="10.157" width="10.157" xmlns="http://www.w3.org/2000/svg"><path d="M4.425 7.727V0h1.306v7.727l3.503-3.405.923.897-5.079 4.938-5.079-4.938.923-.9z" data-name="Arrow" fill="#fb676b"></path></svg></div>
+</li>
+<li class="o-chart-results-list__item // u-width-100 u-width-67@mobile-max lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey u-flex-order-n1@mobile-max">
+<div class="c-lazy-image lrv-u-width-100 u-width-67@mobile-max">
+<div class="lrv-a-crop-1x1 a-crop-67x100@mobile-max" style="">
+<img alt="" class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" data-lazy-sizes="" data-lazy-src="https://charts-static.billboard.com/img/2012/12/bruno-mars-c75-wheniwasyourman-zjd-180x180.jpg" data-lazy-srcset="" decoding="async" height="" src="https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/public/lazyload-fallback.gif" width=""/>
+</div>
+</div>
+</li>
+<li class="o-chart-results-list__item // lrv-u-flex u-flex-grow-1@mobile-max lrv-u-flex-shrink-0 lrv-u-align-items-center lrv-u-justify-content-center u-width-66 lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light u-hidden@mobile-max">
+<div class="c-svg u-height-26 u-width-26">
+<svg style="width:100%;height:auto" viewbox="0 0 26.191 26.191" xmlns="http://www.w3.org/2000/svg"><g data-name="Group 7171"><g data-name="final red"><circle cx="13.095" cy="13.095" data-name="Ellipse 494" fill="#b91b20" r="13.095"></circle></g><path d="M12.167 17.141V6.371h1.82v10.77l4.882-4.746 1.287 1.251-7.079 6.882-7.079-6.882 1.288-1.251z" fill="#fff"></path></g></svg></div>
+</li>
+<li class="lrv-u-width-100p">
+<ul class="lrv-a-unstyle-list lrv-u-flex lrv-u-height-100p lrv-u-flex-direction-column@mobile-max">
+<li class="o-chart-results-list__item // lrv-u-flex-grow-1 lrv-u-flex lrv-u-flex-direction-column lrv-u-justify-content-center lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light lrv-u-padding-l-050 lrv-u-padding-l-1@mobile-max">
+<h3 class="c-title a-no-trucate a-font-primary-bold-s u-letter-spacing-0021 lrv-u-font-size-18@tablet lrv-u-font-size-16 u-line-height-125 u-line-height-normal@mobile-max a-truncate-ellipsis u-max-width-330 u-max-width-230@tablet-only" id="title-of-a-story">
+
+
+
+
+                                        When I Was Your Man
+
+</h3>
+<span class="c-label a-no-trucate a-font-primary-s lrv-u-font-size-14@mobile-max u-line-height-normal@mobile-max u-letter-spacing-0021 lrv-u-display-block 
+a-truncate-ellipsis-2line u-max-width-330 u-max-width-230@tablet-only">
+
+        Bruno Mars
+</span>
+</li>
+<li class="o-chart-results-list__item // u-width-66 u-width-30@mobile-max u-width-55@tablet-only lrv-u-flex lrv-u-flex-shrink-0 lrv-u-align-items-center lrv-u-justify-content-center lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light lrv-u-order-100@mobile-max u-hidden@mobile-max">
+<div class="a-chart-plus-minus-icon"></div>
+</li>
+<li class="o-chart-results-list__item // a-chart-bg-color a-chart-color u-width-72 u-width-55@mobile-max u-width-55@tablet-only lrv-u-flex lrv-u-flex-shrink-0 lrv-u-align-items-center lrv-u-justify-content-center lrv-u-background-color-grey-lightest lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light u-hidden@mobile-max">
+</li>
+<li class="o-chart-results-list__item // a-chart-color u-width-72 u-width-55@mobile-max u-width-55@tablet-only lrv-u-flex lrv-u-flex-shrink-0 lrv-u-align-items-center lrv-u-justify-content-center lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light u-background-color-white-064@mobile-max u-hidden@mobile-max">
+<span class="c-label a-font-primary-m lrv-u-padding-tb-050@mobile-max">
+
+        10
+</span>
+</li>
+<li class="o-chart-results-list__item // a-chart-bg-color a-chart-color u-width-72 u-width-55@mobile-max u-width-55@tablet-only lrv-u-flex lrv-u-flex-shrink-0 lrv-u-align-items-center lrv-u-justify-content-center lrv-u-background-color-grey-lightest lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light u-hidden@mobile-max">
+<span class="c-label a-font-primary-m lrv-u-padding-tb-050@mobile-max">
+
+        1
+</span>
+</li>
+<li class="o-chart-results-list__item // a-chart-color u-width-72 u-width-55@mobile-max u-width-55@tablet-only lrv-u-flex lrv-u-flex-shrink-0 lrv-u-align-items-center lrv-u-justify-content-center lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light u-background-color-white-064@mobile-max u-hidden@mobile-max">
+<span class="c-label a-font-primary-m lrv-u-padding-tb-050@mobile-max">
+
+        24
+</span>
+</li>
+<li class="lrv-u-width-100p u-hidden@tablet">
+<ul class="lrv-a-unstyle-list lrv-u-flex lrv-u-height-100p lrv-u-flex-direction-row u-background-color-grey-lightest@mobile-max">
+<li class="o-chart-results-list__item // u-width-66 u-width-30@mobile-max u-width-55@tablet-only lrv-u-flex lrv-u-flex-shrink-0 lrv-u-align-items-center lrv-u-justify-content-center lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light lrv-u-order-100@mobile-max">
+<div class="a-chart-plus-minus-icon"></div>
+</li>
+<li class="o-chart-results-list__item // a-chart-bg-color a-chart-color u-width-72 u-width-55@mobile-max u-width-55@tablet-only lrv-u-flex lrv-u-flex-shrink-0 lrv-u-align-items-center lrv-u-justify-content-center lrv-u-background-color-grey-lightest lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light lrv-u-flex-grow-1">
+</li>
+<li class="o-chart-results-list__item // a-chart-color u-width-72 u-width-55@mobile-max u-width-55@tablet-only lrv-u-flex lrv-u-flex-shrink-0 lrv-u-align-items-center lrv-u-justify-content-center lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light u-background-color-white-064@mobile-max lrv-u-flex-grow-1">
+<span class="c-label a-font-primary-m lrv-u-padding-tb-050@mobile-max">
+
+        10
+</span>
+</li>
+<li class="o-chart-results-list__item // a-chart-bg-color a-chart-color u-width-72 u-width-55@mobile-max u-width-55@tablet-only lrv-u-flex lrv-u-flex-shrink-0 lrv-u-align-items-center lrv-u-justify-content-center lrv-u-background-color-grey-lightest lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light lrv-u-flex-grow-1">
+<span class="c-label a-font-primary-m lrv-u-padding-tb-050@mobile-max">
+
+        1
+</span>
+</li>
+<li class="o-chart-results-list__item // a-chart-color u-width-72 u-width-55@mobile-max u-width-55@tablet-only lrv-u-flex lrv-u-flex-shrink-0 lrv-u-align-items-center lrv-u-justify-content-center lrv-u-border-b-1 u-border-b-0@mobile-max lrv-u-border-color-grey-light u-background-color-white-064@mobile-max lrv-u-flex-grow-1">
+<span class="c-label a-font-primary-m lrv-u-padding-tb-050@mobile-max">
+
+        24
+</span>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="charts-result-detail // lrv-u-background-color-white lrv-u-position-relative u-z-index-middle-bottom lrv-a-hidden" data-detail="11">
+<div class="lrv-u-flex lrv-u-flex-direction-column@mobile-max lrv-u-padding-lr-150 lrv-u-padding-lr-00@mobile-max lrv-u-padding-tb-150 lrv-u-padding-tb-075@mobile-max">
+<div class="lrv-u-flex-shrink-0 lrv-u-height-100p u-width-500@tablet">
+<div class="a-chart-image lrv-u-flex lrv-u-align-items-center lrv-u-justify-content-center lrv-a-glue-parent" style="background-image: url('https://charts-static.billboard.com/img/2012/12/bruno-mars-c75-wheniwasyourman-zjd-344x344.jpg');">
+<div class="c-lazy-image u-width-200 u-width-270@tablet lrv-u-padding-tb-050">
+<div class="lrv-a-crop-1x1" style="">
+<img alt="Lazy loaded image" class="c-lazy-image__img lrv-u-background-color-grey-lightest lrv-u-width-100p lrv-u-display-block lrv-u-height-auto" data-lazy-sizes="" data-lazy-src="https://charts-static.billboard.com/img/2012/12/bruno-mars-c75-wheniwasyourman-zjd-344x344.jpg" data-lazy-srcset="" decoding="async" height="" src="https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/public/lazyload-fallback.gif" width=""/>
+</div>
+</div>
+</div>
+</div>
+<div class="lrv-u-flex-grow-1 lrv-u-height-100p lrv-u-padding-l-2 lrv-u-padding-r-050 lrv-u-padding-lr-00@mobile-max">
+<div class="o-chart-tabs-wrapper // lrv-u-border-color-grey-light u-border-t-0@mobile-max lrv-u-padding-t-2 u-padding-b-00@tablet lrv-u-padding-t-150@mobile-max" data-tabs="">
+<div class="js-tabs-nav js-tabs-nav--charts-top lrv-u-flex lrv-u-justify-content-space-evenly lrv-u-padding-b-150 lrv-u-padding-b-1@mobile-max lrv-u-border-b-1 lrv-u-border-color-grey-light lrv-u-margin-b-050 lrv-u-margin-b-00@mobile-max" data-tabs-nav="">
+<button class="c-tab // lrv-u-display-inline-block lrv-a-unstyle-button lrv-a-hover-effect lrv-u-whitespace-nowrap a-font-primary-medium-xs lrv-u-text-transform-uppercase lrv-u-cursor-pointer js-subscription-authenticated u-letter-spacing-0037 u-font-size-13 lrv-u-padding-b-025 active" data-tabs-target="tab_2">
+        Credits</button>
+<button class="c-tab // lrv-u-display-inline-block lrv-a-unstyle-button lrv-a-hover-effect lrv-u-whitespace-nowrap a-font-primary-medium-xs lrv-u-text-transform-uppercase lrv-u-cursor-pointer u-letter-spacing-0037 u-font-size-13 lrv-u-padding-b-025" data-tabs-target="tab_5">
+        Share</button>
+</div>
+<div class="js-subscription-authenticated" data-tabs-trigger="tab_2">
+<div class="o-chart-credits // lrv-u-margin-t-2 lrv-u-margin-t-125@mobile-max">
+<h3 class="c-title a-font-primary-medium-s u-letter-spacing-0021" id="title-of-a-story">
+
+
+
+
+                                        Songwriter(s):
+
+</h3>
+<p class="c-tagline a-font-primary-s u-letter-spacing-0021 lrv-u-margin-t-00">Bruno Mars, P.M.Lawrence II, A.Levine, Andrew Wyatt</p>
+<h3 class="c-title a-font-primary-medium-s u-letter-spacing-0021" id="title-of-a-story">
+
+
+
+
+                                        Producer(s):
+
+</h3>
+<p class="c-tagline a-font-primary-s u-letter-spacing-0021 lrv-u-margin-t-00">The SmeeZingtons</p>
+<h3 class="c-title a-font-primary-medium-s u-letter-spacing-0021" id="title-of-a-story">
+
+
+
+
+                                        Imprint/Promotion Label:
+
+</h3>
+<p class="c-tagline a-font-primary-s u-letter-spacing-0021 lrv-u-margin-t-00">Atlantic</p>
+</div>
+</div>
+<div class="lrv-u-display-none" data-tabs-trigger="tab_5">
+<div class="o-chart-share // lrv-u-flex lrv-u-flex-wrap-wrap lrv-u-justify-content-center lrv-u-padding-t-2 lrv-u-padding-t-150@mobile-max lrv-u-padding-b-050 lrv-u-padding-b-00@mobile-max lrv-u-width-100p">
+<a class="lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex lrv-u-align-items-center lrv-u-border-a-1 lrv-u-border-color-grey-light lrv-u-margin-a-075 lrv-u-padding-tb-050 u-border-radius-a-7 lrv-u-color-brand-primary lrv-u-color-white:hover lrv-u-background-color-brand-primary:hover u-width-150 lrv-u-justify-content-center js-chart-share" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.billboard.com%2Fcharts%2Fhot-100%2F%3Frank%3D11&amp;text=Check+out+%22When+I+Was+Your+Man%22+by+Bruno+Mars+on+this+week%27s+Billboard+Hot+100%26%23x2122%3B%21&amp;via=billboard" target="">       
+<span class="lrv-a-screen-reader-only" title="">Share Chart on Twitter</span>
+<svg aria-hidden="true" class="c-icon lrv-u-display-block lrv-u-width-16 lrv-u-height-16">
+<use xlink:href="#twitter"></use>
+</svg>
+<span class="c-span lrv-u-margin-l-050 a-font-primary-medium-xxs">
+
+        Twitter
+</span>
+</a>
+<a class="lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex lrv-u-align-items-center lrv-u-border-a-1 lrv-u-border-color-grey-light lrv-u-margin-a-075 lrv-u-padding-tb-050 u-border-radius-a-7 lrv-u-color-brand-primary lrv-u-color-white:hover lrv-u-background-color-brand-primary:hover u-width-150 lrv-u-justify-content-center js-chart-copy-to-clipboard" data-value="https://www.billboard.com/charts/hot-100/?rank=11" href="#" target="">       
+<span class="lrv-a-screen-reader-only" title="">Share Chart on Copy Link</span>
+<svg aria-hidden="true" class="c-icon lrv-u-display-block lrv-u-width-16 lrv-u-height-16">
+<use xlink:href="#copy"></use>
+</svg>
+<span class="c-span lrv-u-margin-l-050 a-font-primary-medium-xxs">
+
+        Copy Link
+</span>
+</a>
+<a class="lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex lrv-u-align-items-center lrv-u-border-a-1 lrv-u-border-color-grey-light lrv-u-margin-a-075 lrv-u-padding-tb-050 u-border-radius-a-7 lrv-u-color-brand-primary lrv-u-color-white:hover lrv-u-background-color-brand-primary:hover u-width-150 lrv-u-justify-content-center js-chart-share" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.billboard.com%2Fcharts%2Fhot-100%2F%3Frank%3D11&amp;quote=Check+out+%22When+I+Was+Your+Man%22+by+Bruno+Mars+on+this+week%27s+Billboard+Hot+100%26%23x2122%3B%21" target="">
+<span class="lrv-a-screen-reader-only" title="">Share Chart on Facebook</span>
+<svg aria-hidden="true" class="c-icon lrv-u-display-block lrv-u-width-16 lrv-u-height-16">
+<use xlink:href="#facebook"></use>
+</svg>
+<span class="c-span lrv-u-margin-l-050 a-font-primary-medium-xxs">
+
+        Facebook
+</span>
+</a>
+<a class="lrv-a-unstyle-button lrv-a-unstyle-link lrv-u-cursor-pointer lrv-u-flex lrv-u-align-items-center lrv-u-border-a-1 lrv-u-border-color-grey-light lrv-u-margin-a-075 lrv-u-padding-tb-050 u-border-radius-a-7 lrv-u-color-brand-primary lrv-u-color-white:hover lrv-u-background-color-brand-primary:hover u-width-150 lrv-u-justify-content-center js-chart-copy-to-clipboard" data-value='&lt;iframe src="https://widget.billboard.com/hot-100/2013/06/15/10" style="border:none;" name="Billboard Charts" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="540px" width="620px" allowfullscreen&gt;&lt;/iframe&gt;' href="#" target="">
+<span class="lrv-a-screen-reader-only" title="">Share Chart on Embed</span>
+<svg aria-hidden="true" class="c-icon lrv-u-display-block lrv-u-width-16 lrv-u-height-16">
+<use xlink:href="#embed"></use>
+</svg>
+<span class="c-span lrv-u-margin-l-050 a-font-primary-medium-xxs">
+
+        Embed
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="lrv-u-flex lrv-u-background-color-grey-lightest lrv-u-justify-content-center lrv-u-align-items-center lrv-u-padding-tb-1 js-subscription-authenticated">
+<span class="c-span a-font-primary-s u-letter-spacing-0018 u-line-height-25px lrv-u-text-transform-uppercase lrv-u-padding-r-050">
+
+        RIAA Certification:
+</span>
+<span class="c-span a-font-primary-bold-m u-line-height-25px">
+
+        Diamond
+</span>
+</div>
+</div>
+</div>
+[]
+PS C:\Users\Егор\100 Days of Python> 
