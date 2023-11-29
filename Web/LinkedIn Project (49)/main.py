@@ -3,6 +3,8 @@ from ignore import password as PASSWORD
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import NoSuchElementException
+
 import time
 
 
@@ -38,13 +40,13 @@ def main_loop(url=URL):
                     discard_button = driver.find_element(By.XPATH,value="//*[contains(text(), 'Discard')]")
                     svg_element.click()
                     done=True
-                except:
+                except NoSuchElementException:
                     try:
                         button = driver.find_element(By.XPATH, "//*[contains(text(), 'Next')]")
-                    except:
+                    except NoSuchElementException:
                         try:
                             button = driver.find_element(By.XPATH, "//*[contains(text(), 'Review')]")
-                        except:
+                        except NoSuchElementException:
                             try:
                                 button = driver.find_element(By.XPATH, "//*[contains(text(), 'Submit application')]")
                             finally:
