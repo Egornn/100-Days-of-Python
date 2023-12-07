@@ -9,7 +9,7 @@ def main_loop(seconds, url= URL):
     chrome_option = webdriver.ChromeOptions()
     chrome_option.add_experimental_option('detach', True)
     driver = webdriver.Chrome(options=chrome_option)
-    driver.get(URL)
+    driver.get(url)
     consent = driver.find_element(By.CLASS_NAME, value='fc-cta-consent')
     consent.click()
     time.sleep(1)

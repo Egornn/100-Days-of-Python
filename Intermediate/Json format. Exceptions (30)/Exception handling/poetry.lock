@@ -1,4 +1,4 @@
-[[package]]
+c-title  a-no-trucatea[[package]]
 category = "main"
 description = "NumPy is the fundamental package for array computing with Python."
 name = "numpy"
