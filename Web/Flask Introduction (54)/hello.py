@@ -8,7 +8,4 @@ def hello_world():
 
 @app.route('/bye')
 def bye():
-    return '<h1> Bye! <h1>'
-
-if __name__ == "__main__":
-    app.run()
+    return '<h1> Bye! </h1>'
