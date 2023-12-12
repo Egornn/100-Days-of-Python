@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+
+<body>
+    {% for blog in posts: %} {%if blog.get('id') == id or id == 0 : %}
+    <h1>{{blog.get('title')}}</h1>
+    <h2>{{blog.get('subtitle')}}</h2>
+    {%endif%} {%endfor%}
+</body>
+
+</html>

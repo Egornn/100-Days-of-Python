@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+</head>
+
+<body>
+    <h1>Hello, world!</h1>
+    <p>5 * 8 = {{5*8}}</p>
+    <p>Random Number:{{num}}</p>
+    <ul>
+        <li><a href="{{ url_for('get_blog', id=0) }}">Go To Blog</a></li>
+        <li><a href="{{ url_for('get_blog', id=1) }}">Post 1</a></li>
+        <li><a href="{{ url_for('get_blog', id=2) }}">Post 2</a></li>
+        <li><a href="{{ url_for('get_blog', id=3) }}">Post 3</a></li>
+    </ul>
+</body>
+<footer>
+    <p style="text-align:'right' "><em>© Copyright {{year}}. Egor</em></p>
+</footer>
+
+</html>
