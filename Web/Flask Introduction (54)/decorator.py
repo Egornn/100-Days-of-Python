@@ -51,6 +51,7 @@ output_function()
 
 def my_decorator(function):
     def wrapper_function():
+        
         function()
     return wrapper_function
 
