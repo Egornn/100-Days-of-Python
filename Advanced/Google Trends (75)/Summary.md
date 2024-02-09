@@ -1,6 +1,6 @@
 In this lesson we looked at how to:
 
-How to use .describe() to quickly see some descriptive statistics at a glance.
+How to use .describe() toickly see some descriptive statistics at a glance.
 
 How to use .resample() to make a time-series data comparable to another by changing the periodicity.
 
